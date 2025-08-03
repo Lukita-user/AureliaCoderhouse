@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css" >
+</head>
+<body>
+  <header>
+    <footer class="banner"><img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"></footer>
+    <section class="menu-inicio" >
+        <nav>
+            <ul class="enlaces">
+               <li><a href="../index.html">Inicio</a></li>
+               <li><a href="./eter.html">Eter</a></li>
+               <li><a href="./facciones.html">Facciones</a> </a></li>
+               <li><a href="./razas.html">Razas</a></li>
+               <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+            </ul>
+        </nav>
+     </section>
+</header>
+<section class="marco">
+
+     <h1 class="titulo">Razas</h1>
+
+     <p>En el mundo común, solo una raza predomina por sobre todas: la humanidad. Sin embargo, en el mundo mágico, otras razas habitan y coexisten, cada una con su propia historia, conflictos y lazos compartidos, tanto entre sí como con los humanos. En total, existen diez razas principales, acompañadas por cinco razas derivadas, formando así un universo rico en diversidad y posibilidades para quienes deseen explorar este mundo de fantasía.</p>
+    </header>
+<table class="tabla-razas table table-bordered">
+  <tbody>
+    <tr>
+      <td style="width: 15%;"><a href="../razas/humanos.html" class="link-razas">Humanos</a></td>
+      <td class="resumen" style="width: 70%;">Raza balanceada y adaptable, con magia moderada y capacidad para desbloquear su máximo potencial en momentos críticos.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/humanos.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Ángeles</a></td>
+      <td class="resumen" style="width: 70%;">Seres poderosos con gran éter y alas, guardianes sin propósito claro, cuyo destino marcará ambos mundos.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Angeles.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Hadas</a></td>
+      <td class="resumen" style="width: 70%;">Protectores mágicos de la naturaleza, ágiles y voladores, capaces de curar y manipular plantas y energía mágica.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Hadas.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Elfos</a></td>
+      <td class="resumen" style="width: 70%;">Sabios y puros, con gran control mágico y conexión con la naturaleza; ágiles y expertos en runas y encantamientos.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Elfos.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Dracónidos</a></td>
+      <td class="resumen" style="width: 70%;">Guerreros robustos con piel escamosa, fuertes y resistentes, con alas que dominan el cielo y gran poder ancestral.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Draconidos.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Gigantes</a></td>
+      <td class="resumen" style="width: 70%;">Colosos fuertes y resistentes, capaces de manipular la tierra y usar el entorno como arma, lentos pero formidables.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Gigantes.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Demonios</a></td>
+      <td class="resumen" style="width: 70%;">Criaturas agresivas con fuerza y sangre corrosiva, impulsados por sed de sangre y un instinto salvaje difícil de controlar.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Demonios.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Marinos</a></td>
+      <td class="resumen" style="width: 70%;">Humanos acuáticos con éter adaptado al agua, controlan corrientes y resisten presión, pero son torpes fuera del agua.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Marinos.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Semi Bestias</a></td>
+      <td class="resumen" style="width: 70%;">Seres animales con conciencia, instinto mágico natural, sentidos agudos y capacidad de adaptación biológica.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Semi-Bestias.webp" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td style="width: 15%;"><a href="#" class="link-razas">Espectros</a></td>
+      <td class="resumen" style="width: 70%;">Cuerpos de éter con poca materia física, inmortales a condiciones mundanas pero vulnerables a magia dañina.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="/Imagenes/razas img/Espectros.webp" alt="icono" class="icono"></td>
+    </tr>
+  </tbody>
+</table>
+<table class="tabla-razas table table-bordered">
+  <tbody>
+    <tr>
+      <td><a href="#" class="link-razas" style="width: 15%;">Humanos Inmortales</a></td>
+      <td class="resumen" style="width: 70%;">Humanos que sellaron pactos mágicos, no envejecen, absorben éter ambiental pero atraen energía peligrosa.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="../Imagenes/razas img/Humano-inmortal.jpg" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td><a href="#" class="link-razas" style="width: 15%;">Vampiros</a></td>
+      <td class="resumen" style="width: 70%;">Seres nocturnos que absorben energía vital, con gran agilidad y resistencia, pero vulnerables a la luz y al fuego.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="../Imagenes/razas img/vampiro.jpg" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td><a href="#" class="link-razas" style="width: 15%;">Demonios albinos</a></td>
+      <td class="resumen" style="width: 70%;">Demonios más racionales y veloces, que absorben energía mágica pero son físicamente más frágiles.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="../Imagenes/razas img/demonio-albino.jpg" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td><a href="#" class="link-razas" style="width: 15%;">Ninfas</a></td>
+      <td class="resumen" style="width: 70%;">Elfos perfectos con gran éter y control, frágiles físicamente pero capaces de manipular la naturaleza a su antojo.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="../Imagenes/razas img/Ninfas.jpg" alt="icono" class="icono"></td>
+    </tr>
+    <tr>
+      <td><a href="#" class="link-razas" style="width: 15%;">Elfos Guerreros</a></td>
+      <td class="resumen" style="width: 70%;">Rama física de elfos, fuertes y resistentes, con menor magia pero con armas mágicas únicas.</td>
+      <td class="imagen-icono" style="width: 15%;"><img src="../Imagenes/razas img/Guerrero-elfo.jpg" alt="icono" class="icono"></td>
+    </tr>
+  </tbody>
+</table>
+</section>
+     <Footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a></footer>
+    </body>
+</html>

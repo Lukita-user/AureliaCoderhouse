@@ -1,0 +1,209 @@
+/* Estilos generales */
+
+* {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0f0e;
+  font-size: clamp(1.4rem, 1.8vw, 2rem); /* ← texto escala bien */
+  line-height: 1.6;
+  max-width: 100%;
+  overflow-x: hidden; /* ← evita scroll horizontal */
+}
+p {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; font-size: 25px;
+}
+.enlaces {
+   font-size: clamp(1.4vh, 2vw, 2.4vh);  /* se adapta según el ancho de pantalla */
+  padding: 1vh 2vw;
+  display: flex;             
+  flex-direction: row;
+  flex-wrap: wrap;       
+  justify-content: center;   
+  gap: 20px;                 
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 4vh;
+  gap: 10vh;
+  text-decoration: none;
+  padding: 1vh 3vh;
+  border: 0.3vh solid #eb7d17;   
+  background-color: #ffffff;   
+  font-weight: bold;   
+  transition: 0.3s; gap: 3vh;}
+
+
+  .titulo{
+  border-radius: 1vh;             /* Bordes redondeados */
+  padding: 2vh 3vw;               /* Espacio interno */
+  background-color: #eb7d17;      /* Color de fondo suave */
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-align: center;             /* Centrado del texto */
+  width: fit-content;             /* El cuadro se ajusta al contenido */
+  margin: auto;                   /* Centrado en la página */}
+
+  .menu-inicio li a {
+  display: flex
+  ;flex-direction: column;
+  background-color: #ffffff;
+  color: #eb7d17;
+  text-decoration: none;
+  border-radius: 1vh;             /* bordes redondeados */
+  transition: background 0.3s;    /* animación suave */
+  font-weight: bold;
+  border: 1px solid #eb7d17;
+ padding: 1vh 2vw;}
+
+  p, h1, h2, h3 {
+  text-align: center;   padding-left: 5vw;
+  padding-right: 5vw;}
+
+.table-bordered {
+    display: flex;
+  justify-content: center;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Header Estilos*/
+
+/* Main estilos */
+
+/* Footer estilos */
+
+.banner { display: flex;
+ justify-content: center;  
+  height: 35vh;
+  width: 100%;
+ background-color: #0e0f0e;}
+
+
+.discord img {
+  display: block;
+  margin: auto;
+  height: 45vh;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 768px) {
+  .discord img {
+    height: 25vh;  /* Más chico en celulares */
+    border-radius: 10px;  /* Más suave */
+  }}
+
+#busqueda {font-size: clamp(1rem, 2vw, 1.3rem);
+}
+
+@media (max-width: 576px) {
+  #busqueda {
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+ /* Pruebas */
+
+.tabla-razas {
+  margin: 4vh auto;
+  width: 95%;
+  max-width: 1800px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px solid  #eb7d17;;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-size: clamp(1.4vh, 2vw, 2.8vh);
+  table-layout: auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);}
+
+.titulo-tabla {
+  font-size: 3,5vh;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  padding: 2.5vh;
+  letter-spacing: 0.1vh;
+}
+
+.tabla-derecha p {text-align: center; width: 100%;}
+
+.link-razas {
+  text-decoration: none;
+  color: #eb7d17;
+  font-weight: bold;
+  font-size: 3vh;
+  padding: 1vh 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 2vh;
+  line-height: 1.6;
+    font-size: 1.8vh;
+    padding: 1vh;
+  
+}
+
+p {    font-size: 1.8vh;
+    line-height: 1.5;}
+
+.resumen {
+  width: 100%;
+  text-align: left;
+  padding: 2vh;
+  line-height: 1.6;
+    font-size: 1.8vh;
+    line-height: 1.5;
+    padding: 1vh;
+  }
+
+.imagen-icono img.icono {
+  width: 16vh;
+  height: 16vh;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  border-radius: 1.5vh;
+  border: 1px solid #999;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 768px) {
+  .imagen-icono img.icono {
+    width: 12vh;
+    height: 12vh;
+  }}
+
+body {background-color: #0c1314;}
+
+.marco {
+  background-color: white;
+  border: 3px solid #eb7d17;
+  border-radius: 5px;
+  padding: 3vw;
+  margin: 2vw auto;
+  max-width: 1200px;
+
+  display: flow-root;  /* ← alternativa moderna y clara */
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* ← Fichas estilo wiki */
