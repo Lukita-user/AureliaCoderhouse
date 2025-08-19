@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Espectros - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li>
+        <input type="text" id="busqueda" placeholder="Buscar sección..." />
+        <button onclick="buscar()">Buscar</button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Espectros</h1>
+      <p class="fst-italic text-dark">"Seres formados por éter, más allá de lo tangible"</p>
+    </header>
+
+    <div class="row g-4">
+      <!-- Columna izquierda: secciones con texto forzado a negro -->
+      <div class="col-md-8 text-dark forzar-texto-negro">
+        <section class="seccion mb-4">
+          <h2 class="text-decoration-underline">Descripción</h2>
+          <p>La raza más abundante del mundo mágico, formada mayormente por cuerpos de éter con poca materia física. Esto los hace inmortales ante muchas condiciones que afectarían a un humano. Su cuerpo físico puede manifestarse de cualquier forma que albergue su energía mágica, reflejando la forma que su alma les atribuya de manera inconsciente.</p>
+        </section>
+
+        <section class="seccion mb-4">
+          <h2 class="text-decoration-underline">Ventajas</h2>
+          <p>Su constitución les impide ahogarse o sangrar, siendo inmunes a muchas condiciones mortales para los humanos. Son invisibles a ojos de individuos sin magia y pueden manifestar su forma física de manera flexible, según la voluntad de su alma. Su control del éter es notable, permitiéndoles ejecutar habilidades de forma que otras razas no podrían.</p>
+        </section>
+
+        <section class="seccion mb-4">
+          <h2 class="text-decoration-underline">Desventajas</h2>
+          <p>Aunque resistentes a daños físicos y ambientales, son especialmente vulnerables al daño mágico. Ataques que destruyan su coraza física y disipen su energía mágica pueden ser fatales. Además, abusar de su propia magia hasta agotarla por completo puede resultar en su destrucción.</p>
+        </section>
+
+        <section class="seccion mb-4">
+          <h2 class="text-decoration-underline">Habilidades</h2>
+          <ul>
+            <li class="habilidades">Liberación espiritual: Disuelven temporalmente su coraza física para manipular su energía mágica al 100%, sin restricciones, durante un tiempo limitado que disminuye cuanto más éter usan, con un máximo de 20 minutos.</li>
+            <li class="habilidades">Devuelta al futuro: Combinando su forma física y éter, pueden traer "remanentes del alma" desde un plano vinculado a su raza para usarlo como ataque. La potencia depende del ser del que extraen la reserva.</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Columna derecha: imagen y ficha -->
+      <div class="col-md-4">
+        <div class="card bg-light text-dark shadow-sm">
+          <img src="../Imagenes/razas img/espectros.webp" class="card-img-top rounded-top" alt="Imagen del espectro"/>
+          <div class="card-body">
+            <h5 class="card-title text-center text-decoration-underline">Espectro</h5>
+            <ul class="list-unstyled">
+              <li><strong>Longevidad: </strong>Indefinida</li>
+              <li><strong>Fortaleza: </strong>Éter puro</li>
+              <li><strong>Subrazas: </strong>Ninguna</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="discord">
+    <a href="https://discord.gg/sCrBqRtgPR">
+      <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord">
+    </a>
+  </footer>
+</body>
+</html>

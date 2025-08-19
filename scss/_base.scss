@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-fondo;
+  font-size: clamp(1.4rem, 1.8vw, 2rem);
+  line-height: 1.6;
+}

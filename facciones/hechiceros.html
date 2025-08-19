@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hechiceros - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Hechiceros</h1>
+      <p class="fst-italic text-dark">"Agencias de magos registrados: autonomía, secreto y deber"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Estos magos están legalmente registrados por el cuerpo de seguridad; sus expedientes pueden ser revisados o editados por los altos mandos. Operan como agencias —grandes o pequeñas, siempre registradas— en cada país. Aunque pueden colaborar con gobiernos de forma excepcional, las agencias son independientes y se financian por cuenta propia.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Clasificación profesional</h2>
+      <ul>
+        <li class="lista" ><strong>Estudiante:</strong> Novicios formados en una academia creada para su preparación y supervivencia. No pueden tomar misiones sin la supervisión de un superior y deben obedecer sus órdenes.</li>
+        <li class="lista" ><strong>Agente:</strong> Tras graduarse, pueden tomar misiones individuales o grupales asignadas por su agencia.</li>
+        <li class="lista" ><strong>Capitán:</strong> Designado por el director para comandar operaciones críticas o grupales. El rango es permanente; en misiones con múltiples capitanes, solo el designado por el director tiene autoridad.</li>
+        <li class="lista" ><strong>Director:</strong> Líder de la agencia del país, con peso político comparable al de un primer ministro. Se comunica con el gobierno, otras agencias y el cuerpo de seguridad; agenda misiones y supervisa rangos.</li>
+      </ul>
+      <p>Todos los rangos se obtienen por mérito y reconocimiento, sin requisitos adicionales.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Clasificación social</h2>
+      <ul>
+        <li class="lista"><strong>Familias fundadoras:</strong> Las más antiguas, creadoras del secreto de la magia, los primeros hechizos y principios. Son respetadas globalmente.</li>
+        <li class="lista"><strong>Familias prominentes:</strong> Linajes antiguos, influyentes y adinerados que ganaron reconocimiento con el tiempo.</li>
+        <li class="lista"><strong>Familias subyugadas:</strong> Pequeños grupos que se unieron a una familia prominente a cambio de protección; constituyen la mayoría y rara vez deciden en política mágica.</li>
+        <li class="lista"><strong>Despertados:</strong> Aquellos cuyo éter se manifestó recientemente por mutación genética, sin antecedentes familiares. Suelen ser contenidos por el cuerpo de seguridad o reclutados por agencias; tras ello, pasan a la familia subyugada del dueño de dicha agencia.</li>
+      </ul>
+      <p>Estas categorías sociales se obtienen por nacimiento al crear la ficha. Los usuarios no pueden pertenecer a una familia fundadora en condiciones normales. En caso de ser recién despertado, contactar a un narrador para la búsqueda correspondiente.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Clasificación legal</h2>
+      <ul>
+        <li class="lista"><strong>Afiliados:</strong> Hechiceros que trabajan integrados a una agencia, cumpliendo su rol.</li>
+        <li class="lista"><strong>Rebelde:</strong> Actúan por fuera de la ley (p. ej., magia urbana). Aunque puedan obrar «bien», sus acciones siguen siendo ilegales.</li>
+        <li class="lista"><strong>Libres:</strong> Pactaron con el gobierno para operar de forma independiente, sin agencia ni apoyo estatal directo.</li>
+      </ul>
+      <p>Estas condiciones legales se eligen por decisión del usuario; se requiere mérito para ser independiente.</p>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha (solo Personajes relevantes) -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/facciones/Hechiceros.webp" class="card-img-top rounded-top" alt="Imagen de la facción Hechiceros"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Hechiceros</h5>
+        <ul class="list-unstyled">
+          <li><strong>Personajes relevantes:</strong> Director / Top 10</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <Footer class="discord">
+    <a href="https://discord.gg/sCrBqRtgPR">
+      <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord">
+    </a>
+  </Footer>
+</body>
+</html>

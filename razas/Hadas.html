@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hadas - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Hadas</h1>
+      <p class="fst-italic text-dark">"Guardianas de la naturaleza, elegantes y resilientes"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Las hadas habitan los lugares donde la naturaleza florece, convirtiendo bosques, praderas y ríos en su hogar con un toque de magia. Su presencia armoniosa y su conexión profunda con el mundo natural las convierten en protectoras de los ecosistemas que otros destruyen. A pesar de su aparente fragilidad, las hadas han demostrado ser una raza resiliente y misteriosa, perdurando a lo largo de los siglos con su elegancia y su aura encantadora.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Las hadas son una raza única en su conexión innata con la magia natural. Su presencia en el mundo está impregnada de un aura mágica que les permite interactuar con la naturaleza de un modo que otras razas desearían. Con esta tienen la capacidad de apaciguar criaturas y un sentido único de recolección de plantas. Físicamente, las hadas poseen agilidad sobrehumana y la capacidad de volar, permitiéndoles moverse a través del terreno más difícil con una gracia incomparable.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>A pesar de su gran agilidad, las hadas son vulnerables físicamente al daño. Además, los entornos de máximo frío pueden congelar sus delicadas alas, haciendo que pierdan su capacidad de vuelo.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Bendición Vital:</strong> Las hadas pueden transferir parte de su propio éter en forma de polvo por sus alas para sanar heridas desde superficiales hasta graves y revitalizar a sus aliados o a ellas mismas en combate. Dependiendo de la gravedad de la herida, se requiere más éter.</li>
+        <li class="habilidades"><strong>Eclosión Floral:</strong> Las hadas pueden hacer brotar semillas de la tierra y moldearlas a su conveniencia. Estas plantas pueden proteger a aliados, formar barreras, inmovilizar enemigos o crear armas. Esta habilidad también puede absorber atributos del terreno.</li>
+        <li class="habilidades"><strong>Motor Feérico:</strong> Las hadas aceleran la energía mágica y regeneran su reserva de éter a un ritmo mayor, permitiendo usar más magia de lo normal. Sin embargo, el uso intensivo sobrecarga físicamente y mentalmente sus cuerpos frágiles.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/hadas.webp" class="card-img-top rounded-top" alt="Imagen de Hada"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Hada</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>500-1000 años aprox.</li>
+          <li><strong>Fortaleza: </strong>Magia natural y agilidad</li>
+          <li><strong>Subrazas: </strong>Ninguna registrada</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>

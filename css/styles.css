@@ -1,0 +1,203 @@
+/* =========================
+   🔹 Estilos Generales
+   ========================= */
+* {
+  box-sizing: border-box;
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c1314;
+  font-size: clamp(1.4rem, 1.8vw, 2rem);
+  line-height: 1.6;
+}
+
+/* =========================
+   🔹 Textos
+   ========================= */
+p, h1, h2, h3 {
+  text-align: center;
+  padding: 0 5vw;
+}
+
+p {
+  font-size: 1.8vh;
+  line-height: 1.5;
+}
+
+/* =========================
+   🔹 Navegación y Enlaces
+   ========================= */
+.enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 3vh;
+  padding: 1vh 3vh;
+  font-size: 4vh;
+  font-weight: bold;
+
+  border: 0.3vh solid #eb7d17;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.menu-inicio li a {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 2vw;
+  background-color: #fff;
+  color: #eb7d17;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #eb7d17;
+  border-radius: 1vh;
+  transition: background 0.3s;
+}
+
+.link-razas {
+  display: block;
+  text-align: center;
+  color: #eb7d17;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.8vh;
+  line-height: 1.6;
+  padding: 1vh;
+}
+
+/* =========================
+   🔹 Títulos
+   ========================= */
+.titulo {
+  margin: auto;
+  padding: 2vh 3vw;
+  background-color: #eb7d17;
+  color: #fff;
+  border-radius: 1vh;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* =========================
+   🔹 Tablas
+   ========================= */
+.table-bordered {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tabla-razas {
+  margin: 4vh auto;
+  width: 95%;
+  max-width: 1800px;
+  border: 2px solid #eb7d17;
+  border-collapse: collapse;
+  table-layout: auto;
+  text-align: center;
+  font-size: clamp(1.4vh, 2vw, 2.8vh);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-tabla {
+  font-size: 3.5vh;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  padding: 2.5vh;
+  letter-spacing: 0.1vh;
+}
+
+.tabla-derecha p {
+  text-align: center;
+  width: 100%;
+}
+
+/* =========================
+   🔹 Fichas estilo wiki
+   ========================= */
+.resumen, .habilidades, .lista{
+  text-align: left;
+  padding: 1vh;
+  font-size: 1.8vh;
+  line-height: 1.5;
+}
+
+.marco {
+  margin: 2vw auto;
+  padding: 3vw;
+  max-width: 1200px;
+  background-color: #fff;
+  border: 3px solid #eb7d17;
+  border-radius: 5px;
+  display: flow-root;
+}
+/* =========================
+   🔹 Imágenes y Banners
+   ========================= */
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 35vh;
+  background-color: #0e0f0e;
+}
+
+.discord img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 45vh;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.imagen-icono img.icono {
+  display: block;
+  margin: auto;
+  width: 16vh;
+  height: 16vh;
+  object-fit: cover;
+  border-radius: 1.5vh;
+  border: 1px solid #999;
+}
+
+/* =========================
+   🔹 Buscador
+   ========================= */
+#busqueda {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+}
+
+/* =========================
+   🔹 Responsividad
+   ========================= */
+@media (max-width: 768px) {
+  .discord img {
+    height: 25vh;
+    border-radius: 10px;
+  }
+  .imagen-icono img.icono {
+    width: 12vh;
+    height: 12vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #busqueda {
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marinos - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Marinos</h1>
+      <p class="fst-italic text-dark">"Los señores de las profundidades y del éter que fluye con las corrientes"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: descripción y habilidades -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Nacidos de las profundidades, los Marinos son humanoides adaptados al mundo acuático gracias a su exposición al éter. Habitan los mares y han desarrollado sociedades extensas bajo las olas, interactuando con su entorno y aprovechando las corrientes para moverse con velocidad y eficacia.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Los Marinos poseen una adaptabilidad única en entornos acuáticos, siendo capaces de aprovechar las corrientes para moverse con gran velocidad y eficiencia. Su éter circula de manera interna, lo que les permite reforzar sus movimientos y optimizar su energía en el agua. Además, su sensibilidad a la energía mágica invasora les otorga un control ligero sobre su entorno, y su sistema energético autosuficiente les permite reducir el gasto de magia mientras se encuentran sumergidos, haciendo que sean extremadamente efectivos en su hábitat natural.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>Fuera del agua, los Marinos enfrentan grandes dificultades, ya que su energía se disipa y su cuerpo se endurece, volviéndolos torpes y menos capaces de realizar acciones precisas. Su capacidad de comunicación se ve afectada y dependen de inmersiones periódicas para mantener su funcionalidad y preservar su estado físico y mental, lo que limita su efectividad en entornos secos o terrestres durante largos periodos.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Tridente Espiritual:</strong> Transmutan su energía mágica en agua y la circulan por conductos internos, aumentando eficacia y consistencia física.</li>
+        <li class="habilidades"><strong>Bendición Atlántica:</strong> Almacenan líquidos en conductos especiales, permitiendo luchar fuera del agua más tiempo y convertir esas reservas en energía mágica.</li>
+        <li class="habilidades"><strong>Coraza de Poseidón:</strong> Procesan cualquier líquido absorbido a través de branquias y escamas, incluyendo ácidos o lava, aprovechando su contenido y mitigando efectos nocivos parciales.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/marinos.webp" class="card-img-top rounded-top" alt="Imagen de Marino"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Marino</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>Media</li>
+          <li><strong>Fortaleza: </strong>Adaptabilidad acuática, control parcial de corrientes, resistencia al agua y sensibilidad al éter</li>
+          <li><strong>Subrazas: </strong>Ninguna especificada</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>

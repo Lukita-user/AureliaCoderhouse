@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dracónidos - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Dracónidos</h1>
+      <p class="fst-italic text-dark">"Imponentes, ancestrales y guardianes de los cielos"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Una de las razas más imponentes de Aurelia. Los Dracónidos reflejan su conexión ancestral con los dragones mediante fuerza, sabiduría y resistencia, dejando su huella en cada rincón del mundo. Su presencia intimida, pero también inspira respeto y autoridad.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Destacan por su robustez y capacidad de recuperación. Su piel escamosa proporciona defensa natural contra ataques físicos y mágicos, convirtiéndolos en guerreros versátiles. Su presencia imponente y sus alas otorgan respeto y autoridad innatos, además de movilidad aérea.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>Su gran tamaño y contextura física reducen su agilidad y velocidad. Son vulnerables a ataques mágicos que exploten debilidades elementales opuestas a su aliento, y su apariencia intimidante puede dificultar alianzas. Además requieren mayores recursos para mantener su fuerza.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Aliento Ancestral:</strong> Invocan el aliento elemental heredado de sus ancestros (fuego, hielo, electricidad, etc.), dañando y debilitando enemigos en su área de efecto. Debe usarse estratégicamente y es más vulnerable a elementos opuestos.</li>
+        <li class="habilidades"><strong>Ascendencia Salvaje:</strong> Liberan su verdadera forma dracónica, aumentando fuerza, velocidad y agresividad, con ataques devastadores y rugidos desorientadores. Solo puede mantenerse por tiempo limitado y deja al dracónido exhausto tras su uso.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/draconidos.webp" class="card-img-top rounded-top" alt="Imagen de Dracónido"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Dracónido</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>Centenaria / varios siglos</li>
+          <li><strong>Fortaleza: </strong>Fuerza física, resistencia, aliento elemental</li>
+          <li><strong>Subrazas: </strong>Ninguna registrada</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 3vh;
+  padding: 1vh 3vh;
+  font-size: 4vh;
+  font-weight: bold;
+  border: 0.3vh solid $color-primario;
+  background-color: $color-blanco;
+  transition: 0.3s;
+}
+
+.menu-inicio {
+  li {
+    a {
+      display: flex;
+      flex-direction: column;
+      padding: 1vh 2vw;
+      background-color: $color-blanco;
+      color: $color-primario;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid $color-primario;
+      border-radius: 1vh;
+      transition: background 0.3s;
+    }
+  }
+}
+
+.link-razas {
+  display: block;
+  text-align: center;
+  color: $color-primario;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.8vh;
+  line-height: 1.6;
+  padding: 1vh;
+}

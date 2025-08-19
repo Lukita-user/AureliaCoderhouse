@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ángeles - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Ángeles</h1>
+      <p class="fst-italic text-dark">"Seres de poder, memoria eterna y destino incierto"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Seres en su mayoría desconocidos, dotados de un cuerpo parecido al humano y una reserva de energía mágica muy superior comparada con otras razas. La mayoría de ángeles recuerda haber comenzado a vivir hace mucho, sin un propósito específico, con la noción de un creador llamado "Padre". Dotados de gran poder, pero carentes de propósito, son la raza destinada a decidir el destino del mundo...de ambos mundos.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Los ángeles poseen la reserva de éter más grande de todas las razas y un control de energía mágica envidiable, casi divino. Presentan la capacidad de desplegar y materializar alas para volar, pudiendo descartarlas tras su uso.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>Los ángeles no presentan desventajas físicas evidentes, aunque dependen en gran medida de su energía mágica para cualquier acción, similar a los espectros.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Gracia Divina:</strong> Los ángeles pueden reiniciar su existencia manteniendo todos sus recuerdos, negando cambios físicos o mágicos que no deseen, a cambio de consumir la mitad de su energía mágica. Si no poseen suficiente éter, podrían sufrir deformidades o fallar en la manifestación.</li>
+        <li class="habilidades"><strong>Reconstitución Espiritual:</strong> Capacidad de transferir éter benéfico al cuerpo de otros para reparar males físicos o mentales, actualizando y revitalizando su alma.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/angeles.webp" class="card-img-top rounded-top" alt="Imagen de Ángel"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Ángel</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>Extrema / desconocida</li>
+          <li><strong>Fortaleza: </strong>Reserva de éter y control mágico superior</li>
+          <li><strong>Subrazas: </strong>Ninguna registrada</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>

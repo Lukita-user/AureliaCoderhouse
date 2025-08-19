@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semi-bestias - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Semi-bestias</h1>
+      <p class="fst-italic text-dark">"El instinto despierta, la conciencia emerge"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Esta raza se le puede considerar una categoría para múltiples seres que comparten algo en común: el despertar de la conciencia y razonamiento en animales o seres no conscientes. Aunque su aspecto recuerde más a bestias salvajes que a humanos, son considerados una sola raza por esta chispa en común.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Los semi-bestias cuentan con sentidos y habilidades físicas superiores al promedio humano, reflejo directo de su linaje animal. Esto incluye velocidad, fuerza, reflejos, visión nocturna, sentidos agudos, garras retráctiles o camuflaje natural, según su especie de origen. Además, poseen una percepción mágica instintiva muy potente, dejando que la magia fluya de manera natural sin necesidad de estudio.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>A pesar de sus dones físicos y mágicos, los semi-bestias enfrentan problemas por su instinto, cayendo a veces en patrones de comportamiento animal que deben controlar para convivir con otras razas. Además, sus cuerpos conservan ciertas debilidades biológicas propias de sus especies originales.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Memorias Salvajes:</strong> En situaciones críticas, los semi-bestias pueden acceder a recuerdos heredados en su sangre: patrones de caza, supervivencia o defensa, permitiéndoles ejecutar maniobras o técnicas instintivas que nunca aprendieron.</li>
+        <li class="habilidades"><strong>Adaptación Forzada:</strong> Esta respuesta biológica de emergencia se activa cuando el entorno representa una amenaza directa, alterando temporalmente ciertas características físicas o mágicas para resistir o beneficiarse del ambiente hostil.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/semi-bestias.webp" class="card-img-top rounded-top" alt="Imagen de Semi-bestia"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Semi-bestia</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>Variable según especie</li>
+          <li><strong>Fortaleza: </strong>Habilidades físicas y mágicas instintivas</li>
+          <li><strong>Subrazas: </strong>Múltiples, según animal de origen</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>

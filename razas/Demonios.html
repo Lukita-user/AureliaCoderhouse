@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demonios - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Demonios</h1>
+      <p class="fst-italic text-dark">"La sed de sangre y la fuerza salvaje dominan su existencia"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Raza salvaje y marginada por la sociedad mágica por su sed de sangre. Los demonios poseen rasgos humanoides distorsionados, como cuernos, colmillos y pigmentaciones exóticas. Su metabolismo salvaje requiere de grandes cantidades de carne para sobrevivir, y su instinto los convierte en depredadores formidables.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Fuerza, velocidad y resistencia superiores, capaces de mutar para adaptarse a su presa. Su sangre es corrosiva y poseen un nervio especializado que les permite detectar hechizos en formación, reaccionando instintivamente a la magia.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>Su sed de sangre provoca impulsividad y frenesí, afectando su juicio. Su naturaleza agresiva dificulta curaciones o potenciaciones por parte de otras razas, salvo que sean de su misma especie.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Toque del inframundo:</strong> Distorsiona el espacio al usar su éter, afectando la estructura mágica y del alma de quienes entran en contacto con él.</li>
+        <li class="habilidades"><strong>Forma demoníaca:</strong> Control total de su fisiología, permitiéndoles modificar su cuerpo y manifestar un efecto de éter relacionado con la muerte o el mal. Transformaciones requieren aprobación en ficha correspondiente.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/demonios.webp" class="card-img-top rounded-top" alt="Imagen de Demonio"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Demonio</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>Variable según linaje</li>
+          <li><strong>Fortaleza: </strong>Fuerza física, velocidad, resistencia, instinto depredador</li>
+          <li><strong>Subrazas: </strong>Demonio albino, Vampiro</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>

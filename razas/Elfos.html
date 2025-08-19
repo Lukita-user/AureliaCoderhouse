@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elfos - Aurelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body class="bg-dark">
+  <header class="banner">
+    <img src="../Imagenes/28_sin_titulo_20250416192707.webp" alt="Banner de Aurelia" class="img-fluid w-100"/>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-inicio mb-4">
+    <ul class="enlaces">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../principales/eter.html">Éter</a></li>
+      <li><a href="../principales/facciones.html">Facciones</a></li>
+      <li><a href="../principales/razas.html">Razas</a></li>
+      <li> <input type="text" id="busqueda" placeholder="Buscar sección..." /> <button onclick="buscar()">Buscar</button> </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container marco">
+    <header class="text-center mb-4">
+      <h1 class="titulo">Elfos</h1>
+      <p class="fst-italic text-dark">"Sabiduría y pureza al servicio del equilibrio del mundo"</p>
+    </header>
+
+<div class="row g-4">
+  <!-- Columna izquierda: secciones con texto forzado a negro -->
+  <div class="col-md-8 text-dark forzar-texto-negro">
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Descripción</h2>
+      <p>Una de las razas más antiguas y veneradas del mundo mágico. Altos, esbeltos y puros, los elfos se entregan al equilibrio de su entorno, siendo guardianes de la naturaleza y maestros de la magia y el conocimiento.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Ventajas</h2>
+      <p>Su conexión con la magia y la naturaleza les otorga un control excepcional de la energía mágica, con reservas de éter superiores al promedio. Son expertos en encantamientos verbales y escritos, y poseen gran agilidad y habilidades sensoriales que les permiten moverse con destreza a través de su entorno natural. Además, tienen inclinación al uso de herramientas de caza y supervivencia, manteniendo el balance del ecosistema.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Desventajas</h2>
+      <p>Su contextura física es delicada y más espiritual que resistente, lo que los hace vulnerables a daño físico. La exposición a la corrupción o al egoísmo puede dañar su alma y su cuerpo, degradando sus capacidades.</p>
+    </section>
+
+    <section class="seccion mb-4">
+      <h2 class="text-decoration-underline">Habilidades</h2>
+      <ul>
+        <li class="habilidades"><strong>Runas Élficas:</strong> Encantamientos escritos que condensan hechizos en grabados específicos, funcionando como contratos mágicos concentrados, permitiendo manifestar diversos efectos de manera eficiente.</li>
+        <li class="habilidades"><strong>Maná Natural:</strong> Los elfos pueden conectarse con la energía mágica residual del entorno para ampliar su reserva de éter o manipular la naturaleza, con un costo asociado por la conexión profunda.</li>
+        <li class="habilidades"><strong>En Alma y Corazón:</strong> Un último recurso que sacrifica todo su éter en un hechizo de gran potencia con propiedades de su "potestad", manifestando un ataque devastador desde su alma.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Columna derecha: imagen y ficha -->
+  <div class="col-md-4">
+    <div class="card bg-light text-dark shadow-sm">
+      <img src="../Imagenes/razas img/elfos.webp" class="card-img-top rounded-top" alt="Imagen de Elfo"/>
+      <div class="card-body">
+        <h5 class="card-title text-center text-decoration-underline">Elfo</h5>
+        <ul class="list-unstyled">
+          <li><strong>Longevidad: </strong>Muy larga / varios siglos</li>
+          <li><strong>Fortaleza: </strong>Magia, conexión con la naturaleza, agilidad</li>
+          <li><strong>Subrazas: </strong>Elfo guerrero, Ninfa</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="discord"> 
+      <a href="https://discord.gg/sCrBqRtgPR"> <img src="../Imagenes/Discord.jpeg" class="img-fluid" alt="discord"> </a>
+  </footer>
+</body>
+</html>
